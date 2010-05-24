@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.jboss.spec</groupId>
     <artifactId>jboss-specs-parent</artifactId>
-    <version>1.0.0.Beta1</version>
+    <version>1.0.0.Beta2</version>
   </parent>
   
   <!-- Model Version -->
@@ -28,13 +28,11 @@
     <version.hibernate.api>1.0.0.Final</version.hibernate.api>
     <version.inject.api>1</version.inject.api>
     <version.jaxrpc.api>1.1</version.jaxrpc.api>
-    <version.jaxb.api>2.2</version.jaxb.api>
-    <version.jaxws.api>2.2</version.jaxws.api>
+    <version.jaxrs.api>2.0-beta-2</version.jaxrs.api>
     <version.jsr181.api>1.0-MR1</version.jsr181.api>
     <version.jsf.api>2.0.2-FCS</version.jsf.api>
     <version.jstl.api>1.2</version.jstl.api>
     <version.mail.api>1.4.2</version.mail.api>
-    <version.saaj.api>1.3</version.saaj.api>
     <version.stax.api>1.0</version.stax.api>
     <version.validation.api>1.0.0.GA</version.validation.api>
     <version.weld.api>1.0-SP1</version.weld.api>
@@ -149,7 +147,22 @@
         <artifactId>jboss-transaction-api_1.1_spec</artifactId>
         <version>${version.javaee.specs.api.beta1}</version>
       </dependency>
-     <!-- TODO -->
+     <dependency>
+       <groupId>org.jboss.spec.javax.xml.bind</groupId>
+       <artifactId>jboss-jaxb-api_2.2_spec</artifactId>
+       <version>${version.javaee.specs.api.beta1}</version>
+     </dependency>
+     <dependency>
+       <groupId>org.jboss.spec.javax.xml.soap</groupId>
+       <artifactId>jboss-saaj-api_1.3_spec</artifactId>
+       <version>${version.javaee.specs.api.beta1}</version>
+     </dependency>
+     <dependency>
+       <groupId>org.jboss.spec.javax.xml.ws</groupId>
+       <artifactId>jboss-jaxws-api_2.2_spec</artifactId>
+        <version>${version.javaee.specs.api.beta1}</version>
+     </dependency>
+     <!-- JBEE TODOs -->
       <dependency>
         <groupId>javax.activation</groupId>
         <artifactId>activation</artifactId>
@@ -196,6 +209,11 @@
        <version>${version.mail.api}</version>
      </dependency>
      <dependency>
+       <groupId>org.jboss.resteasy</groupId>
+       <artifactId>jaxrs-api</artifactId>
+       <version>${version.jaxrs.api}</version>
+     </dependency>
+     <dependency>
        <groupId>org.hibernate.javax.persistence</groupId>
        <artifactId>hibernate-jpa-2.0-api</artifactId>
        <version>${version.hibernate.api}</version>
@@ -209,41 +227,12 @@
        <groupId>javax.xml</groupId>
        <artifactId>jaxrpc-api</artifactId>
        <version>${version.jaxrpc.api}</version>
-     </dependency>
-     <dependency>
-       <groupId>sun-jaxb</groupId>
-       <artifactId>jaxb-api</artifactId>
-       <version>${version.jaxb.api}</version>
-     </dependency>
-     <dependency>
-       <groupId>javax.xml.ws</groupId>
-       <artifactId>jaxws-api</artifactId>
-       <version>${version.jaxws.api}</version>
-       <exclusions>
-         <exclusion>
-           <groupId>javax.xml.bind</groupId>
-           <artifactId>jaxb-api</artifactId>
-         </exclusion>
-         <exclusion>
-           <groupId>javax.xml.soap</groupId>
-           <artifactId>saaj-api</artifactId>
-         </exclusion>
-         <exclusion>
-           <groupId>javax.annotation</groupId>
-           <artifactId>jsr250-api</artifactId>
-         </exclusion>
-       </exclusions>
-     </dependency>
-     <dependency>
-       <groupId>javax.xml.soap</groupId>
-       <artifactId>saaj-api</artifactId>
-       <version>${version.saaj.api}</version>
-       <exclusions>
-         <exclusion>
-           <groupId>javax.activation</groupId>
-           <artifactId>activation</artifactId>
-           </exclusion>
-       </exclusions>
+        <exclusions>
+          <exclusion>
+            <groupId>javax.xml.soap</groupId>
+            <artifactId>saaj-api</artifactId>
+          </exclusion>
+        </exclusions>
      </dependency>
      <dependency>
        <groupId>stax</groupId>
