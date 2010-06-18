@@ -35,7 +35,6 @@
     <version.mail.api>1.4.2</version.mail.api>
     <version.stax.api>1.0</version.stax.api>
     <version.validation.api>1.0.0.GA</version.validation.api>
-    <version.weld.api>1.0-SP1</version.weld.api>
 
   </properties>
 
@@ -183,11 +182,6 @@
           </exclusion>
         </exclusions>
       </dependency>
-      <dependency>
-        <groupId>org.jboss.weld</groupId>
-        <artifactId>weld-api</artifactId>
-        <version>${version.weld.api}</version>
-     </dependency>
      <dependency>
        <groupId>javax.inject</groupId>
        <artifactId>javax.inject</artifactId>
