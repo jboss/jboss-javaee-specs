@@ -30,7 +30,7 @@
     <version.hibernate.api>1.0.0.Final</version.hibernate.api>
     <version.inject.api>1</version.inject.api>
     <version.jaxrpc.api>1.1</version.jaxrpc.api>
-    <version.jaxrs.api>2.0-RC1</version.jaxrs.api>
+    <version.jaxrs.api>2.0.0.GA</version.jaxrs.api>
     <version.jsr181.api>1.0-MR1</version.jsr181.api>
     <version.jsf.api>2.0.3-20100630</version.jsf.api>
     <version.jstl.api>1.2</version.jstl.api>
