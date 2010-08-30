@@ -13,7 +13,7 @@
   <!-- Artifact Configuration -->
   <groupId>org.jboss.spec</groupId>
   <artifactId>jboss-javaee6-specs-bom</artifactId>
-  <version>1.0.0.Beta6</version>
+  <version>1.0.0-SNAPSHOT</version>
   <name>Java EE 6 API BOM</name>
   <description>Bill of Materials for EE 6 APIs for use with JBoss AS 6</description>
   <packaging>pom</packaging>
@@ -41,9 +41,9 @@
   </properties>
 
   <scm>
-    <connection>scm:svn:http://anonsvn.jboss.org/repos/jbossas/projects/specs/tags/jboss-javaee6-specs-bom-1.0.0.Beta6</connection>
-    <developerConnection>scm:svn:https://svn.jboss.org/repos/jbossas/projects/specs/tags/jboss-javaee6-specs-bom-1.0.0.Beta6</developerConnection>
-    <url>http://fisheye.jboss.org/browse/JBossAS/projects/specs/tags/jboss-javaee6-specs-bom-1.0.0.Beta6</url>
+    <connection>scm:svn:http://anonsvn.jboss.org/repos/jbossas/projects/specs/trunk/jboss-javaee6-specs-bom</connection>
+    <developerConnection>scm:svn:https://svn.jboss.org/repos/jbossas/projects/specs/trunk/jboss-javaee6-specs-bom</developerConnection>
+    <url>http://fisheye.jboss.org/browse/JBossAS/projects/specs/trunk/jboss-javaee6-specs-bom</url>
   </scm>
 
   <!-- Issues -->
