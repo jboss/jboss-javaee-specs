@@ -66,7 +66,7 @@
       <dependency>
         <groupId>org.jboss.spec.javax.resource</groupId>
         <artifactId>jboss-connector-api_1.5_spec</artifactId>
-        <version>${version.javaee.specs.api.beta1}</version>
+        <version>${version.javaee.specs.api}</version>
         <exclusions>
           <exclusion>
             <groupId>org.jboss</groupId>
@@ -82,17 +82,17 @@
       <dependency>
         <groupId>org.jboss.spec.javax.el</groupId>
         <artifactId>jboss-el-api_2.2_spec</artifactId>
-        <version>${version.javaee.specs.api.beta2}</version>
+        <version>${version.javaee.specs.api}</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.spec.javax.interceptor</groupId>
         <artifactId>jboss-interceptors-api_1.1_spec</artifactId>
-        <version>${version.javaee.specs.api.beta1}</version>
+        <version>${version.javaee.specs.api}</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.spec.javax.security.jacc</groupId>
         <artifactId>jboss-jacc-api_1.4_spec</artifactId>
-        <version>${version.javaee.specs.api.beta2}</version>
+        <version>${version.javaee.specs.api}</version>
         <exclusions>
           <exclusion>
             <groupId>org.jboss</groupId>
@@ -103,7 +103,7 @@
       <dependency>
         <groupId>org.jboss.spec.javax.enterprise.deploy</groupId>
         <artifactId>jboss-jad-api_1.2_spec</artifactId>
-        <version>${version.javaee.specs.api.beta1}</version>
+        <version>${version.javaee.specs.api}</version>
         <exclusions>
           <exclusion>
             <groupId>org.jboss</groupId>
@@ -120,42 +120,42 @@
       <dependency>
         <groupId>org.jboss.spec.javax.xml.registry</groupId>
         <artifactId>jboss-jaxr-api_1.0_spec</artifactId>
-        <version>${version.javaee.specs.api.beta1}</version>
+        <version>${version.javaee.specs.api}</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.spec.javax.jms</groupId>
         <artifactId>jboss-jms-api_1.1_spec</artifactId>
-        <version>${version.javaee.specs.api.beta1}</version>
+        <version>${version.javaee.specs.api}</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.spec.javax.servlet.jsp</groupId>
         <artifactId>jboss-jsp-api_2.2_spec</artifactId>
-        <version>${version.javaee.specs.api.beta1}</version>
+        <version>${version.javaee.specs.api}</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.spec.javax.servlet</groupId>
         <artifactId>jboss-servlet-api_3.0_spec</artifactId>
-        <version>${version.javaee.specs.api.beta2}</version>
+        <version>${version.javaee.specs.api}</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.spec.javax.transaction</groupId>
         <artifactId>jboss-transaction-api_1.1_spec</artifactId>
-        <version>${version.javaee.specs.api.beta1}</version>
+        <version>${version.javaee.specs.api}</version>
       </dependency>
      <dependency>
        <groupId>org.jboss.spec.javax.xml.bind</groupId>
        <artifactId>jboss-jaxb-api_2.2_spec</artifactId>
-       <version>${version.javaee.specs.api.beta1}</version>
+       <version>${version.javaee.specs.api}</version>
      </dependency>
      <dependency>
        <groupId>org.jboss.spec.javax.xml.soap</groupId>
        <artifactId>jboss-saaj-api_1.3_spec</artifactId>
-       <version>${version.javaee.specs.api.beta1}</version>
+       <version>${version.javaee.specs.api}</version>
      </dependency>
      <dependency>
        <groupId>org.jboss.spec.javax.xml.ws</groupId>
        <artifactId>jboss-jaxws-api_2.2_spec</artifactId>
-        <version>${version.javaee.specs.api.beta1}</version>
+        <version>${version.javaee.specs.api}</version>
      </dependency>
      <!-- JBEE TODOs -->
       <dependency>
