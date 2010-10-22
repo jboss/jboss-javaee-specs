@@ -60,7 +60,7 @@
       <dependency>
         <groupId>org.jboss.spec.javax.annotation</groupId>
         <artifactId>jboss-annotations-api_1.1_spec</artifactId>
-        <version>${version.javaee.specs.api.beta2}</version>
+        <version>${version.javaee.specs.api}</version>
       </dependency>
       <!-- JavaEE 6 requires Connector API 1.6 -->
       <dependency>
