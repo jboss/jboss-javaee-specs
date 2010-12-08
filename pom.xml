@@ -20,10 +20,6 @@
   
   <!-- Properties -->
   <properties>
-    <version.javaee.specs.api.beta1>1.0.0.Beta1</version.javaee.specs.api.beta1>
-    <version.javaee.specs.api.beta2>1.0.0.Beta2</version.javaee.specs.api.beta2>
-    <version.javaee.specs.api.CR1>1.0.0.CR1</version.javaee.specs.api.CR1>
-    <version.javaee.specs.api.CR2>1.0.0.CR2</version.javaee.specs.api.CR2>
     <version.javaee.specs.api>1.0.0.Final</version.javaee.specs.api>
     <version.activation.api>1.1</version.activation.api>
     <version.cdi.api>1.0-SP3</version.cdi.api>
@@ -76,7 +72,7 @@
       <dependency>
         <groupId>org.jboss.spec.javax.ejb</groupId>
         <artifactId>jboss-ejb-api_3.1_spec</artifactId>
-        <version>${version.javaee.specs.api.CR2}</version>
+        <version>${version.javaee.specs.api}</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.spec.javax.el</groupId>
@@ -113,7 +109,7 @@
       <dependency>
         <groupId>org.jboss.spec.javax.security.auth.message</groupId>
         <artifactId>jboss-jaspi-api_1.0_spec</artifactId>
-        <version>${version.javaee.specs.api.CR1}</version>
+        <version>${version.javaee.specs.api}</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.spec.javax.xml.registry</groupId>
