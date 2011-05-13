@@ -223,7 +223,12 @@
        <artifactId>validation-api</artifactId>
        <version>${version.validation.api}</version>
      </dependency>
-
+     <dependency>
+       <groupId>org.jboss.spec.javax.rmi</groupId>
+       <artifactId>jboss-rmi-api_1.0_spec</artifactId>
+        <version>${version.javaee.specs.api}</version>
+      </dependency>
+                        
     </dependencies>
   </dependencyManagement>
   
