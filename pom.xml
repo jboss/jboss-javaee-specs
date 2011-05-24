@@ -23,10 +23,9 @@
     <version.javaee.specs.api>1.0.0.Final</version.javaee.specs.api>
     <version.activation.api>1.1</version.activation.api>
     <version.cdi.api>1.0-SP4</version.cdi.api>
-    <version.hibernate.api>1.0.0.Final</version.hibernate.api>
     <version.inject.api>1</version.inject.api>
     <version.jsr181.api>1.0-MR1</version.jsr181.api>
-    <version.mail.api>1.4.2</version.mail.api>
+    <version.mail.api>1.4.4</version.mail.api>
     <version.stax.api>1.0.1</version.stax.api>
     <version.validation.api>1.0.0.GA</version.validation.api>
 
@@ -57,7 +56,7 @@
       <dependency>
         <groupId>org.jboss.spec.javax.resource</groupId>
         <artifactId>jboss-connector-api_1.6_spec</artifactId>
-        <version>1.0.0.Beta1</version>
+        <version>${version.javaee.specs.api}</version>
         <exclusions>
           <exclusion>
             <groupId>org.jboss</groupId>
@@ -78,7 +77,7 @@
       <dependency>
         <groupId>org.jboss.spec.javax.faces</groupId>
         <artifactId>jboss-jsf-api_2.0_spec</artifactId>
-        <version>1.0.0.Beta2</version>
+        <version>${version.javaee.specs.api}</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.spec.javax.interceptor</groupId>
@@ -135,7 +134,7 @@
       <dependency>
         <groupId>org.jboss.spec.javax.servlet.jstl</groupId>
         <artifactId>jboss-jstl-api_1.2_spec</artifactId>
-        <version>${version.javaee.specs.api}</version>
+        <version>1.0.1.Final</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.spec.javax.servlet</groupId>
@@ -150,7 +149,7 @@
      <dependency>
        <groupId>org.jboss.spec.javax.ws.rs</groupId>
        <artifactId>jboss-jaxrs-api_1.1_spec</artifactId>
-        <version>1.0.0.Beta1</version>
+        <version>${version.javaee.specs.api}</version>
      </dependency>
      <dependency>
        <groupId>org.jboss.spec.javax.xml.bind</groupId>
@@ -170,14 +169,18 @@
      <dependency>
        <groupId>org.jboss.spec.javax.xml.ws</groupId>
        <artifactId>jboss-jaxws-api_2.2_spec</artifactId>
-        <version>2.0.0.Alpha1</version>
+        <version>2.0.0.Final</version>
      </dependency>
-     <!-- JBEE TODOs -->
-      <dependency>
-        <groupId>javax.activation</groupId>
-        <artifactId>activation</artifactId>
-        <version>${version.activation.api}</version>
-      </dependency>
+     <dependency>
+       <groupId>org.jboss.spec.javax.rmi</groupId>
+       <artifactId>jboss-rmi-api_1.0_spec</artifactId>
+        <version>${version.javaee.specs.api}</version>
+     </dependency>
+     <dependency>
+       <groupId>javax.validation</groupId>
+       <artifactId>validation-api</artifactId>
+       <version>${version.validation.api}</version>
+     </dependency>
       <dependency>
         <groupId>javax.enterprise</groupId>
         <artifactId>cdi-api</artifactId>
@@ -199,11 +202,6 @@
         <version>${version.inject.api}</version>
      </dependency>
      <dependency>
-       <groupId>javax.jws</groupId>
-       <artifactId>jsr181-api</artifactId>
-       <version>${version.jsr181.api}</version>
-     </dependency>
-     <dependency>
        <groupId>javax.mail</groupId>
        <artifactId>mail</artifactId>
        <version>${version.mail.api}</version>
@@ -211,24 +209,24 @@
      <dependency>
        <groupId>org.hibernate.javax.persistence</groupId>
        <artifactId>hibernate-jpa-2.0-api</artifactId>
-       <version>${version.hibernate.api}</version>
+       <version>${version.javaee.specs.api}</version>
+     </dependency>
+     <!-- JBEE TODOs -->
+      <dependency>
+        <groupId>javax.activation</groupId>
+        <artifactId>activation</artifactId>
+        <version>${version.activation.api}</version>
+      </dependency>
+     <dependency>
+       <groupId>javax.jws</groupId>
+       <artifactId>jsr181-api</artifactId>
+       <version>${version.jsr181.api}</version>
      </dependency>
      <dependency>
        <groupId>stax</groupId>
        <artifactId>stax-api</artifactId>
        <version>${version.stax.api}</version>
      </dependency>
-     <dependency>
-       <groupId>javax.validation</groupId>
-       <artifactId>validation-api</artifactId>
-       <version>${version.validation.api}</version>
-     </dependency>
-     <dependency>
-       <groupId>org.jboss.spec.javax.rmi</groupId>
-       <artifactId>jboss-rmi-api_1.0_spec</artifactId>
-        <version>${version.javaee.specs.api}</version>
-      </dependency>
-                        
     </dependencies>
   </dependencyManagement>
   
