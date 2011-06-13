@@ -15,18 +15,18 @@
   <artifactId>jboss-javaee6-specs-bom</artifactId>
   <version>2.0.0-SNAPSHOT</version>
   <name>Java EE 6 API BOM</name>
-  <description>Bill of Materials for EE 6 APIs for use with JBoss AS 7</description>
+  <description>Bill of Materials for Java EE 6 APIs for use with JBoss AS 7</description>
   <packaging>pom</packaging>
   
   <!-- Properties -->
   <properties>
     <version.javaee.specs.api>1.0.0.Final</version.javaee.specs.api>
+    <version.javaee.specs.api.1>1.0.1.Final</version.javaee.specs.api.1>
     <version.activation.api>1.1</version.activation.api>
     <version.cdi.api>1.0-SP4</version.cdi.api>
     <version.inject.api>1</version.inject.api>
     <version.jsr181.api>1.0-MR1</version.jsr181.api>
     <version.mail.api>1.4.4</version.mail.api>
-    <version.stax.api>1.0.1</version.stax.api>
     <version.validation.api>1.0.0.GA</version.validation.api>
 
   </properties>
@@ -67,7 +67,7 @@
       <dependency>
         <groupId>org.jboss.spec.javax.ejb</groupId>
         <artifactId>jboss-ejb-api_3.1_spec</artifactId>
-        <version>${version.javaee.specs.api}</version>
+        <version>${version.javaee.specs.api.1}</version>
       </dependency>
       <dependency>
         <groupId>org.jboss.spec.javax.el</groupId>
@@ -82,6 +82,11 @@
       <dependency>
         <groupId>org.jboss.spec.javax.interceptor</groupId>
         <artifactId>jboss-interceptors-api_1.1_spec</artifactId>
+        <version>${version.javaee.specs.api}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.spec.javax.management.j2ee</groupId>
+        <artifactId>jboss-j2eemgmt-api_1.1_spec</artifactId>
         <version>${version.javaee.specs.api}</version>
       </dependency>
       <dependency>
@@ -164,17 +169,12 @@
      <dependency>
        <groupId>org.jboss.spec.javax.xml.soap</groupId>
        <artifactId>jboss-saaj-api_1.3_spec</artifactId>
-       <version>${version.javaee.specs.api}</version>
+       <version>${version.javaee.specs.api.1}</version>
      </dependency>
      <dependency>
        <groupId>org.jboss.spec.javax.xml.ws</groupId>
        <artifactId>jboss-jaxws-api_2.2_spec</artifactId>
         <version>2.0.0.Final</version>
-     </dependency>
-     <dependency>
-       <groupId>org.jboss.spec.javax.rmi</groupId>
-       <artifactId>jboss-rmi-api_1.0_spec</artifactId>
-        <version>${version.javaee.specs.api}</version>
      </dependency>
      <dependency>
        <groupId>javax.validation</groupId>
@@ -211,7 +211,6 @@
        <artifactId>hibernate-jpa-2.0-api</artifactId>
        <version>${version.javaee.specs.api}</version>
      </dependency>
-     <!-- JBEE TODOs -->
       <dependency>
         <groupId>javax.activation</groupId>
         <artifactId>activation</artifactId>
@@ -221,11 +220,6 @@
        <groupId>javax.jws</groupId>
        <artifactId>jsr181-api</artifactId>
        <version>${version.jsr181.api}</version>
-     </dependency>
-     <dependency>
-       <groupId>stax</groupId>
-       <artifactId>stax-api</artifactId>
-       <version>${version.stax.api}</version>
      </dependency>
     </dependencies>
   </dependencyManagement>
