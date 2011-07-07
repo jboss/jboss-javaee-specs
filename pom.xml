@@ -204,7 +204,7 @@
      <dependency>
        <groupId>org.hibernate.javax.persistence</groupId>
        <artifactId>hibernate-jpa-2.0-api</artifactId>
-       <version>${version.javaee.specs.api}</version>
+       <version>${version.javaee.specs.api.1}</version>
      </dependency>
       <dependency>
         <groupId>javax.activation</groupId>
