@@ -192,12 +192,6 @@
         <groupId>org.jboss.spec.javax.security.jacc</groupId>
         <artifactId>jboss-jacc-api_1.4_spec</artifactId>
         <version>${version.org.jboss.spec.javax.security.jacc}</version>
-        <exclusions>
-          <exclusion>
-            <groupId>org.jboss</groupId>
-            <artifactId>jboss-common-core</artifactId>
-          </exclusion>
-        </exclusions>
       </dependency>
       <dependency>
         <groupId>org.jboss.spec.javax.security.auth.message</groupId>
