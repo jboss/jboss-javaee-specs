@@ -26,7 +26,19 @@
     </license>
   </licenses>
 
+  <scm>
+    <connection>scm:git:git@github.com:jboss/jboss-javaee-specs.git</connection>
+    <developerConnection>scm:git:git@github.com:jboss/jboss-javaee-specs.git</developerConnection>
+    <url>https://github.com/jboss/jboss-javaee-specs</url>
+  </scm>
+
+  <issueManagement>
+    <system>jira</system>
+    <url>http://jira.jboss.com/jira/browse/JBEE</url>
+  </issueManagement>
+
   <properties>
+
     <!-- 
           These properties contain the current versions of the JavaEE API jars.
           Each version property is named according to the artifact groupId 
@@ -72,21 +84,8 @@
 
   </properties>
 
-  <scm>
-    <connection>scm:git:git@github.com:jboss/jboss-javaee-specs.git</connection>
-    <developerConnection>scm:git:git@github.com:jboss/jboss-javaee-specs.git</developerConnection>
-    <url>https://github.com/jboss/jboss-javaee-specs</url>
-  </scm>
-
-  <!-- Issues -->
-  <issueManagement>
-    <system>jira</system>
-    <url>http://jira.jboss.com/jira/browse/JBEE</url>
-  </issueManagement>
-
-  <!-- Dependency Management -->
-
   <dependencyManagement>
+
     <dependencies>
 
       <!-- External JavaEE spec APIs (not part of the JBoss JavaEE Specs project)  -->
