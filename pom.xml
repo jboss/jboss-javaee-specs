@@ -12,8 +12,8 @@
 
   <!-- Artifact Configuration -->
   <groupId>org.jboss.spec</groupId>
-  <artifactId>jboss-javaee6-specs</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <artifactId>jboss-javaee-6.0</artifactId>
+  <version>3.0.0-SNAPSHOT</version>
   <name>JBoss Java EE 6 Specification APIs</name>
   <description>Dependency Management for Java EE 6 Specification APIs</description>
   <packaging>pom</packaging>
@@ -37,15 +37,16 @@
     <url>http://jira.jboss.com/jira/browse/JBEE</url>
   </issueManagement>
 
+  <modules>
+    <module>jboss-javaee-web</module>
+  </modules>
+
   <properties>
 
-    <!-- 
-          These properties contain the current versions of the JavaEE API jars.
-          Each version property is named according to the artifact groupId 
-
-          The first set of properties refer to versions of JavaEE API jars which 
-          are not part of the JBoss specs project 
-    -->
+    <!-- These properties contain the current versions of the JavaEE API 
+      jars. Each version property is named according to the artifact groupId The 
+      first set of properties refer to versions of JavaEE API jars which are not 
+      part of the JBoss specs project -->
     <version.javax.activation>1.1</version.javax.activation>
     <version.javax.enterprise>1.0-SP4</version.javax.enterprise>
     <version.javax.inject>1</version.javax.inject>
@@ -54,11 +55,10 @@
     <version.javax.validation>1.0.0.GA</version.javax.validation>
     <version.org.hibernate.javax.persistence>1.0.1.Final</version.org.hibernate.javax.persistence>
 
-    <!--  
-          These properties control the versions of JavaEE APIs which are part of the JBoss Specs project.
-          These versions refer to the released JBoss jar, and not the version of the spec itself.
-          The version of the spec is represented in the artifactId of each jar
-    -->
+    <!-- These properties control the versions of JavaEE APIs which are part 
+      of the JBoss Specs project. These versions refer to the released JBoss jar, 
+      and not the version of the spec itself. The version of the spec is represented 
+      in the artifactId of each jar -->
     <version.org.jboss.spec.javax.annotation>1.0.0.Final</version.org.jboss.spec.javax.annotation>
     <version.org.jboss.spec.javax.ejb>1.0.1.Final</version.org.jboss.spec.javax.ejb>
     <version.org.jboss.spec.javax.el>1.0.0.Final</version.org.jboss.spec.javax.el>
@@ -88,7 +88,8 @@
 
     <dependencies>
 
-      <!-- External JavaEE spec APIs (not part of the JBoss JavaEE Specs project)  -->
+      <!-- External JavaEE spec APIs (not part of the JBoss JavaEE Specs 
+        project) -->
       <dependency>
         <groupId>javax.activation</groupId>
         <artifactId>activation</artifactId>
@@ -257,5 +258,147 @@
     </dependencies>
 
   </dependencyManagement>
+
+  <!-- The dependency section is only used when the POM is used as an aggregator -->
+  <dependencies>
+    <!-- External JavaEE spec APIs (not part of the JBoss JavaEE Specs project) -->
+    <dependency>
+      <groupId>javax.activation</groupId>
+      <artifactId>activation</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>javax.enterprise</groupId>
+      <artifactId>cdi-api</artifactId>
+      <exclusions>
+        <exclusion>
+          <groupId>org.jboss.interceptor</groupId>
+          <artifactId>jboss-interceptor-api</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>javax.annotation</groupId>
+          <artifactId>jsr250-api</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>javax.inject</groupId>
+      <artifactId>javax.inject</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>javax.jws</groupId>
+      <artifactId>jsr181-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>javax.mail</groupId>
+      <artifactId>mail</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>javax.validation</groupId>
+      <artifactId>validation-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.hibernate.javax.persistence</groupId>
+      <artifactId>hibernate-jpa-2.0-api</artifactId>
+    </dependency>
+
+    <!-- JBoss JavaEE API Specs Projects -->
+    <dependency>
+      <groupId>org.jboss.spec.javax.annotation</groupId>
+      <artifactId>jboss-annotations-api_1.1_spec</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.spec.javax.ejb</groupId>
+      <artifactId>jboss-ejb-api_3.1_spec</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.spec.javax.el</groupId>
+      <artifactId>jboss-el-api_2.2_spec</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.spec.javax.enterprise.deploy</groupId>
+      <artifactId>jboss-jad-api_1.2_spec</artifactId>
+      <exclusions>
+        <exclusion>
+          <groupId>org.jboss</groupId>
+          <artifactId>jboss-common-core</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.spec.javax.faces</groupId>
+      <artifactId>jboss-jsf-api_2.0_spec</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.spec.javax.interceptor</groupId>
+      <artifactId>jboss-interceptors-api_1.1_spec</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.spec.javax.management.j2ee</groupId>
+      <artifactId>jboss-j2eemgmt-api_1.1_spec</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.spec.javax.resource</groupId>
+      <artifactId>jboss-connector-api_1.6_spec</artifactId>
+      <exclusions>
+        <exclusion>
+          <groupId>org.jboss</groupId>
+          <artifactId>jboss-common-core</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.spec.javax.security.jacc</groupId>
+      <artifactId>jboss-jacc-api_1.4_spec</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.spec.javax.security.auth.message</groupId>
+      <artifactId>jboss-jaspi-api_1.0_spec</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.spec.javax.xml.registry</groupId>
+      <artifactId>jboss-jaxr-api_1.0_spec</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.spec.javax.jms</groupId>
+      <artifactId>jboss-jms-api_1.1_spec</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.spec.javax.servlet</groupId>
+      <artifactId>jboss-servlet-api_3.0_spec</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.spec.javax.servlet.jsp</groupId>
+      <artifactId>jboss-jsp-api_2.2_spec</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.spec.javax.servlet.jstl</groupId>
+      <artifactId>jboss-jstl-api_1.2_spec</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.spec.javax.transaction</groupId>
+      <artifactId>jboss-transaction-api_1.1_spec</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.spec.javax.ws.rs</groupId>
+      <artifactId>jboss-jaxrs-api_1.1_spec</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.spec.javax.xml.bind</groupId>
+      <artifactId>jboss-jaxb-api_2.2_spec</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.spec.javax.xml.rpc</groupId>
+      <artifactId>jboss-jaxrpc-api_1.1_spec</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.spec.javax.xml.soap</groupId>
+      <artifactId>jboss-saaj-api_1.3_spec</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.spec.javax.xml.ws</groupId>
+      <artifactId>jboss-jaxws-api_2.2_spec</artifactId>
+    </dependency>
+
+  </dependencies>
 
 </project>
