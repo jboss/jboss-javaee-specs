@@ -63,7 +63,7 @@
     <version.org.jboss.spec.javax.ejb>1.0.1.Final</version.org.jboss.spec.javax.ejb>
     <version.org.jboss.spec.javax.el>1.0.0.Final</version.org.jboss.spec.javax.el>
     <version.org.jboss.spec.javax.enterprise.deploy>1.0.0.Final</version.org.jboss.spec.javax.enterprise.deploy>
-    <version.org.jboss.spec.javax.faces>1.0.0.Final</version.org.jboss.spec.javax.faces>
+    <version.org.jboss.spec.javax.faces>2.0.0.Final</version.org.jboss.spec.javax.faces>
     <version.org.jboss.spec.javax.interceptor>1.0.0.Final</version.org.jboss.spec.javax.interceptor>
     <version.org.jboss.spec.javax.jms>1.0.0.Final</version.org.jboss.spec.javax.jms>
     <version.org.jboss.spec.javax.management.j2ee>1.0.0.Final</version.org.jboss.spec.javax.management.j2ee>
@@ -165,7 +165,7 @@
       </dependency>
       <dependency>
         <groupId>org.jboss.spec.javax.faces</groupId>
-        <artifactId>jboss-jsf-api_2.0_spec</artifactId>
+        <artifactId>jboss-jsf-api_2.1_spec</artifactId>
         <version>${version.org.jboss.spec.javax.faces}</version>
       </dependency>
       <dependency>
@@ -311,7 +311,7 @@
     </dependency>
     <dependency>
       <groupId>org.jboss.spec.javax.faces</groupId>
-      <artifactId>jboss-jsf-api_2.0_spec</artifactId>
+      <artifactId>jboss-jsf-api_2.1_spec</artifactId>
     </dependency>
     <dependency>
       <groupId>org.jboss.spec.javax.interceptor</groupId>
