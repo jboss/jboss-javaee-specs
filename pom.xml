@@ -75,7 +75,7 @@
     <version.org.jboss.spec.javax.servlet.jsp>1.0.1.Final</version.org.jboss.spec.javax.servlet.jsp>
     <version.org.jboss.spec.javax.servlet.jstl>1.0.3.Final</version.org.jboss.spec.javax.servlet.jstl>
     <version.org.jboss.spec.javax.transaction>1.0.1.Final</version.org.jboss.spec.javax.transaction>
-    <version.org.jboss.spec.javax.ws.rs>1.0.0.Final</version.org.jboss.spec.javax.ws.rs>
+    <version.org.jboss.spec.javax.ws.rs>1.0.1.Final</version.org.jboss.spec.javax.ws.rs>
     <version.org.jboss.spec.javax.xml.bind>1.0.4.Final</version.org.jboss.spec.javax.xml.bind>
     <version.org.jboss.spec.javax.xml.registry>1.0.2.Final</version.org.jboss.spec.javax.xml.registry>
     <version.org.jboss.spec.javax.xml.rpc>1.0.1.Final</version.org.jboss.spec.javax.xml.rpc>
