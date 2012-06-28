@@ -71,7 +71,7 @@
     <version.org.jboss.spec.javax.rmi>1.0.4.Final</version.org.jboss.spec.javax.rmi>
     <version.org.jboss.spec.javax.security.auth.message>1.0.1.Final</version.org.jboss.spec.javax.security.auth.message>
     <version.org.jboss.spec.javax.security.jacc>1.0.2.Final</version.org.jboss.spec.javax.security.jacc>
-    <version.org.jboss.spec.javax.servlet>1.0.1.Final</version.org.jboss.spec.javax.servlet>
+    <version.org.jboss.spec.javax.servlet>1.0.2.Final</version.org.jboss.spec.javax.servlet>
     <version.org.jboss.spec.javax.servlet.jsp>1.0.1.Final</version.org.jboss.spec.javax.servlet.jsp>
     <version.org.jboss.spec.javax.servlet.jstl>1.0.3.Final</version.org.jboss.spec.javax.servlet.jstl>
     <version.org.jboss.spec.javax.transaction>1.0.1.Final</version.org.jboss.spec.javax.transaction>
