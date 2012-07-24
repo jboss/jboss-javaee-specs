@@ -39,15 +39,15 @@
   <modules>
     <module>jboss-javaee-all</module>
   </modules>
-
+  <properties><version.all>5.0.2-SNAPSHOT</version.all></properties>
   <!-- The dependency section is only used when the POM is used as an aggregator -->
   <dependencies>
 
     <!-- JBoss JavaEE API Specs Projects -->
     <dependency>
       <groupId>org.jboss.javaee</groupId>
-      <artifactId>jboss-ejb-api</artifactId>
-      <version>3.0.0.GA</version>
+      <artifactId>jboss-ejb-api-3.0_spec</artifactId>
+      <version>${version.all}</version>
       <exclusions>
         <exclusion>
           <groupId>org.jboss.ws.native</groupId>
@@ -57,8 +57,8 @@
     </dependency>
     <dependency>
       <groupId>org.jboss.javaee</groupId>
-      <artifactId>jboss-jacc-api</artifactId>
-      <version>1.1.0.GA</version>
+      <artifactId>jboss-jacc-api-1.1_spec</artifactId>
+      <version>${version.all}</version>
       <exclusions>
         <!-- the original dependency on the tag -->
         <exclusion>
@@ -78,8 +78,8 @@
     </dependency>
     <dependency>
       <groupId>org.jboss.javaee</groupId>
-      <artifactId>jboss-jad-api</artifactId>
-      <version>1.2.0.GA</version>
+      <artifactId>jboss-jad-api-1.2_spec</artifactId>
+      <version>${version.all}</version>
       <exclusions>
         <exclusion>
           <groupId>org.jboss</groupId>
@@ -93,13 +93,13 @@
     </dependency>
     <dependency>
       <groupId>org.jboss.javaee</groupId>
-      <artifactId>jboss-jaspi-api</artifactId>
-      <version>1.0.0.GA</version>
+      <artifactId>jboss-jaspi-api-1.0_spec</artifactId>
+      <version>${version.all}</version>
     </dependency>
     <dependency>
       <groupId>org.jboss.javaee</groupId>
-      <artifactId>jboss-jaxr-api</artifactId>
-      <version>1.0.0.GA</version>
+      <artifactId>jboss-jaxr-api-1.0_spec</artifactId>
+      <version>${version.all}</version>
       <exclusions>
         <exclusion>
           <groupId>javax.activation</groupId>
@@ -109,8 +109,8 @@
     </dependency>
     <dependency>
       <groupId>org.jboss.javaee</groupId>
-      <artifactId>jboss-jca-api</artifactId>
-      <version>1.5.0.GA</version>
+      <artifactId>jboss-jca-api-1.5_spec</artifactId>
+      <version>${version.all}</version>
       <exclusions>
         <exclusion>
           <groupId>org.jboss</groupId>
@@ -120,15 +120,14 @@
     </dependency>
     <dependency>
       <groupId>org.jboss.javaee</groupId>
-      <artifactId>jboss-jms-api</artifactId>
-      <version>1.1.0.GA</version>
+      <artifactId>jboss-jms-api-1.1_spec</artifactId>
+      <version>${version.all}</version>
     </dependency>
     <dependency>
       <groupId>org.jboss.javaee</groupId>
-      <artifactId>jboss-transaction-api</artifactId>
-      <version>1.0.1.GA</version>
+      <artifactId>jboss-transaction-api-1.0.1_spec</artifactId>
+      <version>${version.all}</version>
     </dependency>
-
   </dependencies>
 
 </project>
