@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.jboss.spec</groupId>
     <artifactId>jboss-javaee-5.0</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0.RC1</version>
   </parent>
 
   <artifactId>jboss-javaee-all-5.0</artifactId>
