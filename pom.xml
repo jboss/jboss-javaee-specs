@@ -39,7 +39,7 @@
   <modules>
     <module>jboss-javaee-all</module>
   </modules>
-  <properties><version.all>5.0.2-SNAPSHOT</version.all></properties>
+  <properties><version.all>5.0.2.RC1</version.all></properties>
   <!-- The dependency section is only used when the POM is used as an aggregator -->
   <dependencies>
 
