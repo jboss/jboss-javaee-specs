@@ -11,7 +11,7 @@
 
   <groupId>org.jboss.spec</groupId>
   <artifactId>jboss-javaee-5.0</artifactId>
-  <version>1.0.0.GA</version>
+  <version>1.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>JBoss Java EE 5 Specification APIs</name>
