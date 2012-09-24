@@ -190,6 +190,11 @@
         </exclusions>
       </dependency>
       <dependency>
+        <groupId>org.jboss.spec.javax.rmi</groupId>
+        <artifactId>jboss-rmi-api_1.0_spec</artifactId>
+        <version>${version.org.jboss.spec.javax.rmi}</version>
+      </dependency>
+      <dependency>
         <groupId>org.jboss.spec.javax.security.jacc</groupId>
         <artifactId>jboss-jacc-api_1.4_spec</artifactId>
         <version>${version.org.jboss.spec.javax.security.jacc}</version>
@@ -324,6 +329,10 @@
     <dependency>
       <groupId>org.jboss.spec.javax.resource</groupId>
       <artifactId>jboss-connector-api_1.6_spec</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.jboss.spec.javax.rmi</groupId>
+      <artifactId>jboss-rmi-api_1.0_spec</artifactId>
     </dependency>
     <dependency>
       <groupId>org.jboss.spec.javax.security.jacc</groupId>
