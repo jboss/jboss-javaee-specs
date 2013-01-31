@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.jboss</groupId>
     <artifactId>jboss-parent</artifactId>
-    <version>9</version>
+    <version>10</version>
   </parent>
 
   <groupId>org.jboss.spec</groupId>
@@ -47,7 +47,7 @@
       jars. Each version property is named according to the artifact groupId The 
       first set of properties refer to versions of JavaEE API jars which are not 
       part of the JBoss specs project -->
-    <version.javax.activation>1.1</version.javax.activation>
+    <version.javax.activation>1.1.1</version.javax.activation>
     <version.javax.enterprise>1.0-SP4</version.javax.enterprise>
     <version.javax.inject>1</version.javax.inject>
     <version.javax.jws>1.0-MR1</version.javax.jws>
@@ -61,9 +61,9 @@
       in the artifactId of each jar -->
     <version.org.jboss.spec.javax.annotation>1.0.1.Final</version.org.jboss.spec.javax.annotation>
     <version.org.jboss.spec.javax.ejb>1.0.2.Final</version.org.jboss.spec.javax.ejb>
-    <version.org.jboss.spec.javax.el>1.0.1.Final</version.org.jboss.spec.javax.el>
+    <version.org.jboss.spec.javax.el>1.0.2.Final</version.org.jboss.spec.javax.el>
     <version.org.jboss.spec.javax.enterprise.deploy>1.0.1.Final</version.org.jboss.spec.javax.enterprise.deploy>
-    <version.org.jboss.spec.javax.faces>2.0.7.Final</version.org.jboss.spec.javax.faces>
+    <version.org.jboss.spec.javax.faces>2.0.9.Final</version.org.jboss.spec.javax.faces>
     <version.org.jboss.spec.javax.interceptor>1.0.1.Final</version.org.jboss.spec.javax.interceptor>
     <version.org.jboss.spec.javax.jms>1.0.1.Final</version.org.jboss.spec.javax.jms>
     <version.org.jboss.spec.javax.management.j2ee>1.0.1.Final</version.org.jboss.spec.javax.management.j2ee>
