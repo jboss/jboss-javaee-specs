@@ -11,7 +11,7 @@
 
   <groupId>org.jboss.spec</groupId>
   <artifactId>jboss-javaee-6.0</artifactId>
-  <version>3.0.2.Final-SNAPSHOT</version>
+  <version>3.0.2.Final</version>
   <packaging>pom</packaging>
 
   <name>JBoss Java EE 6 Specification APIs</name>
@@ -29,6 +29,7 @@
     <connection>scm:git:git@github.com:jboss/jboss-javaee-specs.git</connection>
     <developerConnection>scm:git:git@github.com:jboss/jboss-javaee-specs.git</developerConnection>
     <url>https://github.com/jboss/jboss-javaee-specs</url>
+    <tag>3.0.2.Final</tag>
   </scm>
 
   <issueManagement>
