@@ -61,29 +61,29 @@
       and not the version of the spec itself. The version of the spec is represented 
       in the artifactId of each jar -->
     <version.org.jboss.spec.javax.annotation>1.0.0.Alpha1</version.org.jboss.spec.javax.annotation>
-    <version.org.jboss.spec.javax.batch>1.0.0.Alpha1</version.org.jboss.spec.javax.batch>
+    <version.org.jboss.spec.javax.batch>1.0.0.Beta1</version.org.jboss.spec.javax.batch>
     <version.org.jboss.spec.javax.ejb>1.0.0.Alpha2</version.org.jboss.spec.javax.ejb>
     <version.org.jboss.spec.javax.el>1.0.0.Alpha1</version.org.jboss.spec.javax.el>
-    <version.org.jboss.spec.javax.enterprise.concurrent>1.0.0.Alpha1</version.org.jboss.spec.javax.enterprise.concurrent>
-    <version.org.jboss.spec.javax.faces>2.2.0-m13</version.org.jboss.spec.javax.faces>
-    <version.org.jboss.spec.javax.inject>1.0.0.Alpha1-SNAPSHOT</version.org.jboss.spec.javax.inject>
+    <version.org.jboss.spec.javax.enterprise.concurrent>1.0.0.CR1</version.org.jboss.spec.javax.enterprise.concurrent>
+    <version.org.jboss.spec.javax.faces>2.2.3</version.org.jboss.spec.javax.faces>
+    <!-- <version.org.jboss.spec.javax.inject>1.0.0.Alpha1-SNAPSHOT</version.org.jboss.spec.javax.inject> -->
     <version.org.jboss.spec.javax.interceptor>1.0.0.Alpha3</version.org.jboss.spec.javax.interceptor>
-    <version.org.jboss.spec.javax.json>1.0.0.Alpha2</version.org.jboss.spec.javax.json>
+    <version.org.jboss.spec.javax.json>1.0.0.Beta1</version.org.jboss.spec.javax.json>
     <version.org.jboss.spec.javax.jms>1.0.0.Alpha1</version.org.jboss.spec.javax.jms>
     <version.org.jboss.spec.javax.management.j2ee>1.0.1.Final</version.org.jboss.spec.javax.management.j2ee>
-    <version.org.jboss.spec.javax.resource>1.0.0.Alpha1</version.org.jboss.spec.javax.resource>
+    <version.org.jboss.spec.javax.resource>1.0.0.Beta1</version.org.jboss.spec.javax.resource>
     <version.org.jboss.spec.javax.rmi>1.0.4.Final</version.org.jboss.spec.javax.rmi>
-    <version.org.jboss.spec.javax.security.auth.message>1.0.1.Final</version.org.jboss.spec.javax.security.auth.message>
+    <version.org.jboss.spec.javax.security.auth.message>1.0.0.Alpha1</version.org.jboss.spec.javax.security.auth.message>
     <version.org.jboss.spec.javax.security.jacc>1.0.3.Alpha1</version.org.jboss.spec.javax.security.jacc>
-    <version.org.jboss.spec.javax.servlet>1.0.0.Alpha1</version.org.jboss.spec.javax.servlet>
+    <version.org.jboss.spec.javax.servlet>1.0.0.Beta1</version.org.jboss.spec.javax.servlet>
     <version.org.jboss.spec.javax.servlet.jsp>1.0.0.Alpha1</version.org.jboss.spec.javax.servlet.jsp>
     <version.org.jboss.spec.javax.servlet.jstl>1.0.4.Alpha1</version.org.jboss.spec.javax.servlet.jstl>
-    <version.org.jboss.spec.javax.transaction>1.0.0.Alpha1</version.org.jboss.spec.javax.transaction>
+    <version.org.jboss.spec.javax.transaction>1.0.0.Beta1</version.org.jboss.spec.javax.transaction>
     <version.org.jboss.spec.javax.websocket>1.0.0.Beta1</version.org.jboss.spec.javax.websocket>
     <version.org.jboss.spec.javax.ws.rs>1.0.0.Alpha1</version.org.jboss.spec.javax.ws.rs>
     <version.org.jboss.spec.javax.xml.bind>1.0.4.Final</version.org.jboss.spec.javax.xml.bind>
-    <version.org.jboss.spec.javax.xml.soap>1.0.2.Final</version.org.jboss.spec.javax.xml.soap>
-    <version.org.jboss.spec.javax.xml.ws>2.0.1.Final</version.org.jboss.spec.javax.xml.ws>
+    <version.org.jboss.spec.javax.xml.soap>1.0.3.Beta1</version.org.jboss.spec.javax.xml.soap>
+    <version.org.jboss.spec.javax.xml.ws>2.0.2.Beta2</version.org.jboss.spec.javax.xml.ws>
 
   </properties>
 
@@ -210,7 +210,7 @@
       </dependency>
       <dependency>
         <groupId>org.jboss.spec.javax.security.auth.message</groupId>
-        <artifactId>jboss-jaspi-api_1.0_spec</artifactId>
+        <artifactId>jboss-jaspi-api_1.1_spec</artifactId>
         <version>${version.org.jboss.spec.javax.security.auth.message}</version>
       </dependency>
       <dependency>
@@ -362,7 +362,7 @@
     </dependency>
     <dependency>
       <groupId>org.jboss.spec.javax.security.auth.message</groupId>
-      <artifactId>jboss-jaspi-api_1.0_spec</artifactId>
+      <artifactId>jboss-jaspi-api_1.1_spec</artifactId>
     </dependency>
     <dependency>
       <groupId>org.jboss.spec.javax.jms</groupId>
