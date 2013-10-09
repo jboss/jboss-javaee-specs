@@ -81,8 +81,8 @@
     <version.org.jboss.spec.javax.websocket>1.0.0.Beta1</version.org.jboss.spec.javax.websocket>
     <version.org.jboss.spec.javax.ws.rs>1.0.0.Alpha1</version.org.jboss.spec.javax.ws.rs>
     <version.org.jboss.spec.javax.xml.bind>1.0.4.Final</version.org.jboss.spec.javax.xml.bind>
-    <version.org.jboss.spec.javax.xml.soap>1.0.3.Beta1</version.org.jboss.spec.javax.xml.soap>
-    <version.org.jboss.spec.javax.xml.ws>2.0.2.Beta2</version.org.jboss.spec.javax.xml.ws>
+    <version.org.jboss.spec.javax.xml.soap>1.0.3.Final</version.org.jboss.spec.javax.xml.soap>
+    <version.org.jboss.spec.javax.xml.ws>2.0.2.Final</version.org.jboss.spec.javax.xml.ws>
 
   </properties>
 
