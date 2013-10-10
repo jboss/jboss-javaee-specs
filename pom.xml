@@ -52,7 +52,7 @@
     <version.javax.enterprise>1.1</version.javax.enterprise>
     <version.javax.inject>1</version.javax.inject>
     <version.javax.jws>1.0-MR1</version.javax.jws>
-    <version.javax.mail>1.5.0-b02</version.javax.mail>
+    <version.javax.mail>1.5.0-b01</version.javax.mail>
     <version.javax.validation>1.1.0.Final</version.javax.validation>
     <version.org.hibernate.javax.persistence>1.0.0.Final</version.org.hibernate.javax.persistence>
 
@@ -127,7 +127,7 @@
       </dependency>
       <dependency>
         <groupId>javax.mail</groupId>
-        <artifactId>javax.mail-api</artifactId>
+        <artifactId>mail</artifactId>
         <version>${version.javax.mail}</version>
       </dependency>
       <dependency>
@@ -295,7 +295,7 @@
     </dependency>
     <dependency>
       <groupId>javax.mail</groupId>
-      <artifactId>javax.mail-api</artifactId>
+      <artifactId>mail</artifactId>
     </dependency>
     <dependency>
       <groupId>javax.validation</groupId>
