@@ -52,7 +52,7 @@
     <version.javax.enterprise>1.1</version.javax.enterprise>
     <version.javax.inject>1</version.javax.inject>
     <version.javax.jws>1.0-MR1</version.javax.jws>
-    <version.javax.mail>1.5.0-b01</version.javax.mail>
+    <version.javax.mail>1.5.0-b02</version.javax.mail>
     <version.javax.validation>1.1.0.Final</version.javax.validation>
     <version.org.hibernate.javax.persistence>1.0.0.Final</version.org.hibernate.javax.persistence>
 
@@ -63,11 +63,11 @@
     <version.org.jboss.spec.javax.annotation>1.0.0.Final</version.org.jboss.spec.javax.annotation>
     <version.org.jboss.spec.javax.batch>1.0.0.Final</version.org.jboss.spec.javax.batch>
     <version.org.jboss.spec.javax.ejb>1.0.0.Final</version.org.jboss.spec.javax.ejb>
-    <version.org.jboss.spec.javax.el>1.0.0.Alpha1</version.org.jboss.spec.javax.el>
+    <version.org.jboss.spec.javax.el>1.0.0.Beta1</version.org.jboss.spec.javax.el>
     <version.org.jboss.spec.javax.enterprise.concurrent>1.0.0.Final</version.org.jboss.spec.javax.enterprise.concurrent>
     <version.org.jboss.spec.javax.faces>2.2.3</version.org.jboss.spec.javax.faces>
     <version.org.jboss.spec.javax.interceptor>1.0.0.Final</version.org.jboss.spec.javax.interceptor>
-    <version.org.jboss.spec.javax.json>1.0.0.Beta1</version.org.jboss.spec.javax.json>
+    <version.org.jboss.spec.javax.json>1.0.0.Final</version.org.jboss.spec.javax.json>
     <version.org.jboss.spec.javax.jms>1.0.0.Final</version.org.jboss.spec.javax.jms>
     <version.org.jboss.spec.javax.management.j2ee>1.0.1.Final</version.org.jboss.spec.javax.management.j2ee>
     <version.org.jboss.spec.javax.resource>1.0.0.Final</version.org.jboss.spec.javax.resource>
@@ -75,10 +75,10 @@
     <version.org.jboss.spec.javax.security.auth.message>1.0.0.Alpha1</version.org.jboss.spec.javax.security.auth.message>
     <version.org.jboss.spec.javax.security.jacc>1.0.0.Beta1</version.org.jboss.spec.javax.security.jacc>
     <version.org.jboss.spec.javax.servlet>1.0.0.Final</version.org.jboss.spec.javax.servlet>
-    <version.org.jboss.spec.javax.servlet.jsp>1.0.0.Alpha1</version.org.jboss.spec.javax.servlet.jsp>
-    <version.org.jboss.spec.javax.servlet.jstl>1.0.4.Alpha1</version.org.jboss.spec.javax.servlet.jstl>
+    <version.org.jboss.spec.javax.servlet.jsp>1.0.0.Beta1</version.org.jboss.spec.javax.servlet.jsp>
+    <version.org.jboss.spec.javax.servlet.jstl>1.0.4.Beta1</version.org.jboss.spec.javax.servlet.jstl>
     <version.org.jboss.spec.javax.transaction>1.0.0.Final</version.org.jboss.spec.javax.transaction>
-    <version.org.jboss.spec.javax.websocket>1.0.0.Beta1</version.org.jboss.spec.javax.websocket>
+    <version.org.jboss.spec.javax.websocket>1.0.0.Final</version.org.jboss.spec.javax.websocket>
     <version.org.jboss.spec.javax.ws.rs>1.0.0.Alpha1</version.org.jboss.spec.javax.ws.rs>
     <version.org.jboss.spec.javax.xml.bind>1.0.4.Final</version.org.jboss.spec.javax.xml.bind>
     <version.org.jboss.spec.javax.xml.soap>1.0.3.Final</version.org.jboss.spec.javax.xml.soap>
@@ -127,7 +127,7 @@
       </dependency>
       <dependency>
         <groupId>javax.mail</groupId>
-        <artifactId>mail</artifactId>
+        <artifactId>javax.mail-api</artifactId>
         <version>${version.javax.mail}</version>
       </dependency>
       <dependency>
@@ -295,7 +295,7 @@
     </dependency>
     <dependency>
       <groupId>javax.mail</groupId>
-      <artifactId>mail</artifactId>
+      <artifactId>javax.mail-api</artifactId>
     </dependency>
     <dependency>
       <groupId>javax.validation</groupId>
