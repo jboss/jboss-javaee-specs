@@ -6,13 +6,13 @@
   <parent>
     <groupId>org.jboss.spec</groupId>
     <artifactId>jboss-javaee-7.0</artifactId>
-    <version>1.0.0.Beta2-SNAPSHOT</version>
+    <version>1.0.0.Beta2</version>
     <relativePath>..</relativePath>
   </parent>
 
   <groupId>org.jboss.spec</groupId>
   <artifactId>jboss-javaee-all-7.0</artifactId>
-  <version>1.0.0.Beta2-SNAPSHOT</version>
+  <version>1.0.0.Beta2</version>
   <packaging>jar</packaging>
 
   <name>JBoss Java EE 7 Specification APIs - All</name>
