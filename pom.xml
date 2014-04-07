@@ -55,7 +55,7 @@
     <version.javax.mail>1.5.1</version.javax.mail>
     <version.javax.validation>1.1.0.Final</version.javax.validation>
     <version.org.hibernate.javax.persistence>1.0.0.Final</version.org.hibernate.javax.persistence>
-    <version.org.jboss.resteasy>3.0.6.Final</version.org.jboss.resteasy>
+    <version.org.jboss.resteasy>3.0.7.Final</version.org.jboss.resteasy>
 
     <!-- These properties control the versions of JavaEE APIs which are part 
       of the JBoss Specs project. These versions refer to the released JBoss jar, 
@@ -64,9 +64,9 @@
     <version.org.jboss.spec.javax.annotation>1.0.0.Final</version.org.jboss.spec.javax.annotation>
     <version.org.jboss.spec.javax.batch>1.0.0.Final</version.org.jboss.spec.javax.batch>
     <version.org.jboss.spec.javax.ejb>1.0.0.Final</version.org.jboss.spec.javax.ejb>
-    <version.org.jboss.spec.javax.el>1.0.0.Final</version.org.jboss.spec.javax.el>
+    <version.org.jboss.spec.javax.el>1.0.3.Final</version.org.jboss.spec.javax.el>
     <version.org.jboss.spec.javax.enterprise.concurrent>1.0.0.Final</version.org.jboss.spec.javax.enterprise.concurrent>
-    <version.org.jboss.spec.javax.faces>2.2.5</version.org.jboss.spec.javax.faces>
+    <version.org.jboss.spec.javax.faces>2.2.6</version.org.jboss.spec.javax.faces>
     <version.org.jboss.spec.javax.interceptor>1.0.0.Final</version.org.jboss.spec.javax.interceptor>
     <version.org.jboss.spec.javax.json>1.0.0.Final</version.org.jboss.spec.javax.json>
     <version.org.jboss.spec.javax.jms>1.0.0.Final</version.org.jboss.spec.javax.jms>
@@ -76,7 +76,7 @@
     <version.org.jboss.spec.javax.security.auth.message>1.0.0.Final</version.org.jboss.spec.javax.security.auth.message>
     <version.org.jboss.spec.javax.security.jacc>1.0.0.Final</version.org.jboss.spec.javax.security.jacc>
     <version.org.jboss.spec.javax.servlet>1.0.0.Final</version.org.jboss.spec.javax.servlet>
-    <version.org.jboss.spec.javax.servlet.jsp>1.0.0.Final</version.org.jboss.spec.javax.servlet.jsp>
+    <version.org.jboss.spec.javax.servlet.jsp>1.0.1.Final</version.org.jboss.spec.javax.servlet.jsp>
     <version.org.jboss.spec.javax.servlet.jstl>1.1.0.Final</version.org.jboss.spec.javax.servlet.jstl>
     <version.org.jboss.spec.javax.transaction>1.0.0.Final</version.org.jboss.spec.javax.transaction>
     <version.org.jboss.spec.javax.websocket>1.0.0.Final</version.org.jboss.spec.javax.websocket>
