@@ -55,7 +55,7 @@
     <version.javax.mail>1.5.1</version.javax.mail>
     <version.javax.validation>1.1.0.Final</version.javax.validation>
     <version.org.hibernate.javax.persistence>1.0.0.Final</version.org.hibernate.javax.persistence>
-    <version.org.jboss.resteasy>3.0.7.Final</version.org.jboss.resteasy>
+    <version.org.jboss.resteasy>3.0.8.Final</version.org.jboss.resteasy>
 
     <!-- These properties control the versions of JavaEE APIs which are part 
       of the JBoss Specs project. These versions refer to the released JBoss jar, 
