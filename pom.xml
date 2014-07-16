@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.jboss</groupId>
     <artifactId>jboss-parent</artifactId>
-    <version>10</version>
+    <version>15</version>
   </parent>
 
   <groupId>org.jboss.spec</groupId>
@@ -64,9 +64,9 @@
     <version.org.jboss.spec.javax.annotation>1.0.0.Final</version.org.jboss.spec.javax.annotation>
     <version.org.jboss.spec.javax.batch>1.0.0.Final</version.org.jboss.spec.javax.batch>
     <version.org.jboss.spec.javax.ejb>1.0.0.Final</version.org.jboss.spec.javax.ejb>
-    <version.org.jboss.spec.javax.el>1.0.3.Final</version.org.jboss.spec.javax.el>
+    <version.org.jboss.spec.javax.el>1.0.4.Final</version.org.jboss.spec.javax.el>
     <version.org.jboss.spec.javax.enterprise.concurrent>1.0.0.Final</version.org.jboss.spec.javax.enterprise.concurrent>
-    <version.org.jboss.spec.javax.faces>2.2.6</version.org.jboss.spec.javax.faces>
+    <version.org.jboss.spec.javax.faces>2.2.7</version.org.jboss.spec.javax.faces>
     <version.org.jboss.spec.javax.interceptor>1.0.0.Final</version.org.jboss.spec.javax.interceptor>
     <version.org.jboss.spec.javax.json>1.0.0.Final</version.org.jboss.spec.javax.json>
     <version.org.jboss.spec.javax.jms>1.0.0.Final</version.org.jboss.spec.javax.jms>
@@ -77,7 +77,7 @@
     <version.org.jboss.spec.javax.security.jacc>1.0.0.Final</version.org.jboss.spec.javax.security.jacc>
     <version.org.jboss.spec.javax.servlet>1.0.0.Final</version.org.jboss.spec.javax.servlet>
     <version.org.jboss.spec.javax.servlet.jsp>1.0.1.Final</version.org.jboss.spec.javax.servlet.jsp>
-    <version.org.jboss.spec.javax.servlet.jstl>1.1.0.Final</version.org.jboss.spec.javax.servlet.jstl>
+    <version.org.jboss.spec.javax.servlet.jstl>1.1.2.Final</version.org.jboss.spec.javax.servlet.jstl>
     <version.org.jboss.spec.javax.transaction>1.0.0.Final</version.org.jboss.spec.javax.transaction>
     <version.org.jboss.spec.javax.websocket>1.0.0.Final</version.org.jboss.spec.javax.websocket>
     <version.org.jboss.spec.javax.xml.bind>1.0.4.Final</version.org.jboss.spec.javax.xml.bind>
