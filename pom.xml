@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.jboss</groupId>
     <artifactId>jboss-parent</artifactId>
-    <version>10</version>
+    <version>16</version>
   </parent>
 
   <groupId>org.jboss.spec</groupId>
@@ -43,6 +43,8 @@
   </modules>
 
   <properties>
+    <maven.compiler.target>1.6</maven.compiler.target>
+    <maven.compiler.source>1.6</maven.compiler.source>
 
     <!-- These properties contain the current versions of the JavaEE API 
       jars. Each version property is named according to the artifact groupId The 
@@ -74,7 +76,7 @@
     <version.org.jboss.spec.javax.security.jacc>1.0.2.Final</version.org.jboss.spec.javax.security.jacc>
     <version.org.jboss.spec.javax.servlet>1.0.2.Final</version.org.jboss.spec.javax.servlet>
     <version.org.jboss.spec.javax.servlet.jsp>1.0.1.Final</version.org.jboss.spec.javax.servlet.jsp>
-    <version.org.jboss.spec.javax.servlet.jstl>1.0.3.Final</version.org.jboss.spec.javax.servlet.jstl>
+    <version.org.jboss.spec.javax.servlet.jstl>1.0.6.Final</version.org.jboss.spec.javax.servlet.jstl>
     <version.org.jboss.spec.javax.transaction>1.0.1.Final</version.org.jboss.spec.javax.transaction>
     <version.org.jboss.spec.javax.ws.rs>1.0.1.Final</version.org.jboss.spec.javax.ws.rs>
     <version.org.jboss.spec.javax.xml.bind>1.0.4.Final</version.org.jboss.spec.javax.xml.bind>
