@@ -11,7 +11,7 @@
 
   <groupId>org.jboss.spec</groupId>
   <artifactId>jboss-javaee-7.0</artifactId>
-  <version>1.1.0.Beta1</version>
+  <version>1.1.0.Final-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>JBoss Java EE 7 Specification APIs</name>
@@ -29,7 +29,7 @@
     <connection>scm:git:git@github.com:jboss/jboss-javaee-specs.git</connection>
     <developerConnection>scm:git:git@github.com:jboss/jboss-javaee-specs.git</developerConnection>
     <url>https://github.com/jboss/jboss-javaee-specs</url>
-    <tag>jboss-javaee-7.0-1.1.0.Beta1</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <issueManagement>
