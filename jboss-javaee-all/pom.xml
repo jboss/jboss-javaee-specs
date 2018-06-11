@@ -5,18 +5,17 @@
 
   <parent>
     <groupId>org.jboss.spec</groupId>
-    <artifactId>jboss-javaee-7.0</artifactId>
-    <version>1.1.2.Final-SNAPSHOT</version>
+    <artifactId>jboss-javaee-8.0</artifactId>
+    <version>1.0.0.Alpha1-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <groupId>org.jboss.spec</groupId>
-  <artifactId>jboss-javaee-all-7.0</artifactId>
-  <version>1.1.2.Final-SNAPSHOT</version>
+  <artifactId>jboss-javaee-all-8.0</artifactId>
+
   <packaging>jar</packaging>
 
-  <name>JBoss Java EE 7 Specification APIs - All</name>
-  <description>Combine jar files which includes all Java EE 7 Spec APIs</description>
+  <name>JBoss Java EE 8 Specification APIs - All</name>
+  <description>Combine jar files which includes all Java EE 8 Spec APIs</description>
 
   <build>
     <plugins>

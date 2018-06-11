@@ -13,3 +13,4 @@ target
 .idea
 
 
+/jboss-javaee-all/dependency-reduced-pom.xml

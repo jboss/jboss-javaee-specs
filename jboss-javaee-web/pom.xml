@@ -6,17 +6,17 @@
   <parent>
     <groupId>org.jboss</groupId>
     <artifactId>jboss-parent</artifactId>
-    <version>25</version>
+    <version>28</version>
     <relativePath />
   </parent>
 
   <groupId>org.jboss.spec</groupId>
-  <artifactId>jboss-javaee-web-7.0</artifactId>
-  <version>1.1.2.Final-SNAPSHOT</version>
+  <artifactId>jboss-javaee-web-8.0</artifactId>
+  <version>1.0.0.Alpha1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
-  <name>JBoss Java EE 7 Web Profile APIs</name>
-  <description>JBoss Java EE 7 Web Profile APIs</description>
+  <name>JBoss Java EE 8 Web Profile APIs</name>
+  <description>JBoss Java EE 8 Web Profile APIs</description>
 
   <licenses>
     <license>
@@ -42,7 +42,7 @@
     <dependencies>
       <dependency>
         <groupId>org.jboss.spec</groupId>
-        <artifactId>jboss-javaee-7.0</artifactId>
+        <artifactId>jboss-javaee-8.0</artifactId>
         <version>${project.version}</version>
         <type>pom</type>
         <scope>import</scope>
@@ -62,18 +62,30 @@
       <artifactId>javax.inject</artifactId>
     </dependency>
     <dependency>
-      <groupId>javax.validation</groupId>
-      <artifactId>validation-api</artifactId>
+      <groupId>javax.json</groupId>
+      <artifactId>javax.json-api</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.hibernate.javax.persistence</groupId>
-      <artifactId>hibernate-jpa-2.1-api</artifactId>
+      <groupId>javax.json.bind</groupId>
+      <artifactId>javax.json.bind-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>javax.persistence</groupId>
+      <artifactId>javax.persistence-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>javax.security.enterprise</groupId>
+      <artifactId>javax.security.enterprise-api</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>javax.validation</groupId>
+      <artifactId>validation-api</artifactId>
     </dependency>
 
     <!-- JBoss JavaEE API Specs Projects -->
     <dependency>
       <groupId>org.jboss.spec.javax.annotation</groupId>
-      <artifactId>jboss-annotations-api_1.2_spec</artifactId>
+      <artifactId>jboss-annotations-api_1.3_spec</artifactId>
     </dependency>
     <dependency>
       <groupId>org.jboss.spec.javax.ejb</groupId>
@@ -85,15 +97,11 @@
     </dependency>
     <dependency>
       <groupId>org.jboss.spec.javax.faces</groupId>
-      <artifactId>jboss-jsf-api_2.2_spec</artifactId>
+      <artifactId>jboss-jsf-api_2.3_spec</artifactId>
     </dependency>
     <dependency>
       <groupId>org.jboss.spec.javax.interceptor</groupId>
       <artifactId>jboss-interceptors-api_1.2_spec</artifactId>
-    </dependency>
-   <dependency>
-      <groupId>org.jboss.spec.javax.json</groupId>
-      <artifactId>jboss-json-api_1.0_spec</artifactId>
     </dependency>
     <dependency>
       <groupId>org.jboss.spec.javax.resource</groupId>
@@ -101,7 +109,7 @@
     </dependency>
     <dependency>
       <groupId>org.jboss.spec.javax.servlet</groupId>
-      <artifactId>jboss-servlet-api_3.1_spec</artifactId>
+      <artifactId>jboss-servlet-api_4.0_spec</artifactId>
     </dependency>
     <dependency>
       <groupId>org.jboss.spec.javax.servlet.jsp</groupId>
@@ -110,6 +118,10 @@
     <dependency>
       <groupId>org.apache.taglibs</groupId>
       <artifactId>taglibs-standard-spec</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.taglibs</groupId>
+      <artifactId>taglibs-standard-impl</artifactId>
     </dependency>
     <dependency>
       <groupId>org.jboss.spec.javax.transaction</groupId>
@@ -121,11 +133,11 @@
     </dependency>
     <dependency>
       <groupId>org.jboss.spec.javax.ws.rs</groupId>
-      <artifactId>jboss-jaxrs-api_2.0_spec</artifactId>
+      <artifactId>jboss-jaxrs-api_2.1_spec</artifactId>
     </dependency>
     <dependency>
       <groupId>org.jboss.spec.javax.xml.bind</groupId>
-      <artifactId>jboss-jaxb-api_2.2_spec</artifactId>
+        <artifactId>jboss-jaxb-api_2.3_spec</artifactId>
     </dependency>
   </dependencies>
 </project>
