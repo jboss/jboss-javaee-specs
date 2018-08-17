@@ -12,7 +12,7 @@
 
   <groupId>org.jboss.spec</groupId>
   <artifactId>jboss-javaee-web-8.0</artifactId>
-  <version>1.0.0.Alpha1</version>
+  <version>1.0.0.Alpha2-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>JBoss Java EE 8 Web Profile APIs</name>
