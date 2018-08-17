@@ -27,25 +27,25 @@ The naming scheme adopted is as follows:
 If you require the full set of required technology APIs defined by the Java EE specification, add the following to your project pom.
 <ul>
 <li><code>&lt;groupId&gt;org.jboss.spec&lt;/groupId&gt;</code>
-<li><code>&lt;artifactId&gt;jboss-javaee-7.0&lt;/artifactId&gt;</code>
-<li><code>&lt;version&gt;<a href="https://repository.jboss.org/nexus/content/groups/public/org/jboss/spec/jboss-javaee-7.0/1.0.0.Final">1.0.0.Final</a>&lt;/version&gt;</code>
+<li><code>&lt;artifactId&gt;jboss-javaee-8.0&lt;/artifactId&gt;</code>
+<li><code>&lt;version&gt;<a href="https://repository.jboss.org/nexus/content/groups/public/org/jboss/spec/jboss-javaee-8.0/1.0.0.Alpha1-SNAPSHOT">1.0.0.Alpha1-SNAPSHOT"></a>&lt;/version&gt;</code>
 </ul>
 
 <h2>Java EE Web Profile APIs</h2>
 If you are developing web applications and depend only on technologies that comprise the Java EE Web Profile specification, you can opt to use the web profile pom.
 <ul>
 <li><code>&lt;groupId&gt;org.jboss.spec&lt;/groupId&gt;</code>
-<li><code>&lt;artifactId&gt;jboss-javaee-web-7.0&lt;/artifactId&gt;</code>
-<li><code>&lt;version&gt;<a href="https://repository.jboss.org/nexus/content/groups/public/org/jboss/spec/jboss-javaee-web-7.0/1.1.0.Final">1.1.0.Final</a>&lt;/version&gt;</code>
+<li><code>&lt;artifactId&gt;jboss-javaee-web-8.0&lt;/artifactId&gt;</code>
+<li><code>&lt;version&gt;<a href="https://repository.jboss.org/nexus/content/groups/public/org/jboss/spec/jboss-javaee-web-8.0/1.0.0.Alpha1-SNAPSHOT">">1.0.0.Alpha1-SNAPSHOT"></a>&lt;/version&gt;</code>
 </ul>
 
 <h2>Java EE API UberJar</h2>
 Else, if you prefer a jar containing the EE API classes, that is also made available per a previous <a href="https://issues.jboss.org/browse/JBEE-73">feature request</a>.
 <ul>
 <li><code>&lt;groupId&gt;org.jboss.spec&lt;/groupId&gt;</code>
-<li><code>&lt;artifactId&gt;jboss-javaee-7.0-all&lt;/artifactId&gt;</code>
-<li><code>&lt;version&gt;<a href="https://repository.jboss.org/nexus/content/groups/public/org/jboss/spec/jboss-javaee-all-7.0/1.1.0.Final">1.1.0.Final</a>&lt;/version&gt;</code>
+<li><code>&lt;artifactId&gt;jboss-javaee-8.0-all&lt;/artifactId&gt;</code>
+<li><code>&lt;version&gt;<a href="https://repository.jboss.org/nexus/content/groups/public/org/jboss/spec/jboss-javaee-all-8.0/1.0.0.Alpha1-SNAPSHOT">">1.0.0.Alpha1-SNAPSHOT"></a>&lt;/version&gt;</code>
 </ul>
 
 
-These examples show the group:artifactId for use with Java EE 7.    <a href="https://repository.jboss.org/nexus/content/groups/public/org/jboss/spec/">Releases</a> are available for Java EE 6 also.
+These examples show the group:artifactId for use with Java EE 8.    <a href="https://repository.jboss.org/nexus/content/groups/public/org/jboss/spec/">Releases</a> are available for Java EE 6 and 7 also.
