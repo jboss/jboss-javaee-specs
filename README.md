@@ -10,7 +10,7 @@ This project, which originated from the legacy <a href="http://svn.jboss.org/rep
 <li>Individual release cycle per technology component</li>
 <indent>Restructuring the project so each API set can be released individually provides greater flexibility and control to the project owners without waiting for the aggregate to be released and integrated.  These API releases can be consumed by your project as a single dependency or as a fully defined set of required APIs for the profile.
 
-<li>Define a naming scheme to associate the Specification version to the the APIs contained in the JAR and distinguish between that and the release version of the artifact</li>
+<li>Define a naming scheme to associate the Specification version to the APIs contained in the JAR and distinguish between that and the release version of the artifact</li>
 <indent>
 The naming scheme adopted is as follows:
 <ul>
