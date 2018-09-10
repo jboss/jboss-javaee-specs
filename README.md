@@ -28,7 +28,7 @@ If you require the full set of required technology APIs defined by the Java EE s
 <ul>
 <li><code>&lt;groupId&gt;org.jboss.spec&lt;/groupId&gt;</code>
 <li><code>&lt;artifactId&gt;jboss-javaee-8.0&lt;/artifactId&gt;</code>
-<li><code>&lt;version&gt;<a href="https://repository.jboss.org/nexus/content/groups/public/org/jboss/spec/jboss-javaee-8.0/1.0.0.Alpha1">1.0.0.Alpha1-SNAPSHOT"></a>&lt;/version&gt;</code>
+<li><code>&lt;version&gt;<a href="https://repository.jboss.org/nexus/content/groups/public/org/jboss/spec/jboss-javaee-8.0/1.0.1.Final">1.0.1.Final</a>&lt;/version&gt;</code>
 </ul>
 
 <h2>Java EE Web Profile APIs</h2>
@@ -36,7 +36,7 @@ If you are developing web applications and depend only on technologies that comp
 <ul>
 <li><code>&lt;groupId&gt;org.jboss.spec&lt;/groupId&gt;</code>
 <li><code>&lt;artifactId&gt;jboss-javaee-web-8.0&lt;/artifactId&gt;</code>
-<li><code>&lt;version&gt;<a href="https://repository.jboss.org/nexus/content/groups/public/org/jboss/spec/jboss-javaee-web-8.0/1.0.0.Alpha1">">1.0.0.Alpha1-SNAPSHOT"></a>&lt;/version&gt;</code>
+<li><code>&lt;version&gt;<a href="https://repository.jboss.org/nexus/content/groups/public/org/jboss/spec/jboss-javaee-web-8.0/1.0.1.Final">1.0.1.Final</a>&lt;/version&gt;</code>
 </ul>
 
 <h2>Java EE API UberJar</h2>
@@ -44,7 +44,7 @@ Else, if you prefer a jar containing the EE API classes, that is also made avail
 <ul>
 <li><code>&lt;groupId&gt;org.jboss.spec&lt;/groupId&gt;</code>
 <li><code>&lt;artifactId&gt;jboss-javaee-8.0-all&lt;/artifactId&gt;</code>
-<li><code>&lt;version&gt;<a href="https://repository.jboss.org/nexus/content/groups/public/org/jboss/spec/jboss-javaee-all-8.0/1.0.0.Alpha1">">1.0.0.Alpha1-SNAPSHOT"></a>&lt;/version&gt;</code>
+<li><code>&lt;version&gt;<a href="https://repository.jboss.org/nexus/content/groups/public/org/jboss/spec/jboss-javaee-all-8.0/1.0.1.Final">1.0.1.Final</a>&lt;/version&gt;</code>
 </ul>
 
 
