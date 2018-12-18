@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.jboss.spec</groupId>
     <artifactId>jboss-javaee-8.0</artifactId>
-    <version>1.0.2.Final-SNAPSHOT</version>
+    <version>1.0.2.Final</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
