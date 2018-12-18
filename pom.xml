@@ -55,7 +55,7 @@
     <version.javax.json>1.1.2</version.javax.json>
     <version.javax.json.bind>1.0</version.javax.json.bind>
     <version.javax.jws>1.0-MR1</version.javax.jws>
-    <version.javax.mail>1.6.1</version.javax.mail>
+    <version.javax.mail>1.6.2</version.javax.mail>
     <version.javax.persistence>2.2</version.javax.persistence>
     <version.javax.security.enterprise>1.0</version.javax.security.enterprise>
     <version.javax.validation>2.0.1.Final</version.javax.validation>
@@ -67,7 +67,7 @@
     <version.org.jboss.spec.javax.annotation>1.0.1.Final</version.org.jboss.spec.javax.annotation>
     <version.org.jboss.spec.javax.batch>1.0.1.Final</version.org.jboss.spec.javax.batch>
     <version.org.jboss.spec.javax.ejb>1.0.1.Final</version.org.jboss.spec.javax.ejb>
-    <version.org.jboss.spec.javax.el>1.0.12.Final</version.org.jboss.spec.javax.el>
+    <version.org.jboss.spec.javax.el>1.0.13.Final</version.org.jboss.spec.javax.el>
     <version.org.jboss.spec.javax.enterprise.concurrent>1.0.2.Final</version.org.jboss.spec.javax.enterprise.concurrent>
     <version.org.jboss.spec.javax.faces>2.3.5.SP1</version.org.jboss.spec.javax.faces>
     <version.org.jboss.spec.javax.interceptor>1.0.1.Final</version.org.jboss.spec.javax.interceptor>
@@ -81,7 +81,7 @@
     <version.org.jboss.spec.javax.servlet.jsp>1.0.3.Final</version.org.jboss.spec.javax.servlet.jsp>
     <version.org.jboss.spec.javax.transaction>1.1.1.Final</version.org.jboss.spec.javax.transaction>
     <version.org.jboss.spec.javax.websocket>1.1.3.Final</version.org.jboss.spec.javax.websocket>
-    <version.org.jboss.spec.javax.ws.rs.jboss-jaxrs-api_2.1_spec>1.0.1.Final</version.org.jboss.spec.javax.ws.rs.jboss-jaxrs-api_2.1_spec>
+    <version.org.jboss.spec.javax.ws.rs.jboss-jaxrs-api_2.1_spec>1.0.2.Final</version.org.jboss.spec.javax.ws.rs.jboss-jaxrs-api_2.1_spec>
     <version.org.jboss.spec.javax.xml.bind>1.0.1.Final</version.org.jboss.spec.javax.xml.bind>
     <version.org.jboss.spec.javax.xml.soap>1.0.6.Final</version.org.jboss.spec.javax.xml.soap>
     <version.org.jboss.spec.javax.xml.ws>1.0.0.Final</version.org.jboss.spec.javax.xml.ws>
