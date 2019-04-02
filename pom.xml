@@ -11,7 +11,7 @@
 
   <groupId>org.jboss.spec</groupId>
   <artifactId>jboss-javaee-8.0</artifactId>
-  <version>1.0.3.Final-SNAPSHOT</version>
+  <version>1.0.3.Final</version>
   <packaging>pom</packaging>
 
   <name>JBoss Java EE 8 Specification APIs</name>
@@ -29,7 +29,7 @@
     <connection>scm:git:git@github.com:jboss/jboss-javaee-specs.git</connection>
     <developerConnection>scm:git:git@github.com:jboss/jboss-javaee-specs.git</developerConnection>
     <url>https://github.com/jboss/jboss-javaee-specs</url>
-    <tag>HEAD</tag>
+    <tag>jboss-javaee-8.0-1.0.3.Final</tag>
   </scm>
 
   <issueManagement>
