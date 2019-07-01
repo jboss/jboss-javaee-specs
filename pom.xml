@@ -65,11 +65,11 @@
       and not the version of the spec itself. The version of the spec is represented 
       in the artifactId of each jar -->
     <version.org.jboss.spec.javax.annotation>1.0.1.Final</version.org.jboss.spec.javax.annotation>
-    <version.org.jboss.spec.javax.batch>1.0.1.Final</version.org.jboss.spec.javax.batch>
-    <version.org.jboss.spec.javax.ejb>1.0.1.Final</version.org.jboss.spec.javax.ejb>
+    <version.org.jboss.spec.javax.batch>1.0.2.Final</version.org.jboss.spec.javax.batch>
+    <version.org.jboss.spec.javax.ejb>1.0.2.Final</version.org.jboss.spec.javax.ejb>
     <version.org.jboss.spec.javax.el>1.0.13.Final</version.org.jboss.spec.javax.el>
     <version.org.jboss.spec.javax.enterprise.concurrent>1.0.2.Final</version.org.jboss.spec.javax.enterprise.concurrent>
-    <version.org.jboss.spec.javax.faces>2.3.9.SP01</version.org.jboss.spec.javax.faces>
+    <version.org.jboss.spec.javax.faces>2.3.9.SP02</version.org.jboss.spec.javax.faces>
     <version.org.jboss.spec.javax.interceptor>1.0.1.Final</version.org.jboss.spec.javax.interceptor>
     <version.org.jboss.spec.javax.jms>1.0.2.Final</version.org.jboss.spec.javax.jms>
     <version.org.jboss.spec.javax.management.j2ee>1.0.2.Final</version.org.jboss.spec.javax.management.j2ee>
@@ -80,7 +80,7 @@
     <version.org.jboss.spec.javax.servlet>1.0.0.Final</version.org.jboss.spec.javax.servlet>
     <version.org.jboss.spec.javax.servlet.jsp>1.0.3.Final</version.org.jboss.spec.javax.servlet.jsp>
     <version.org.jboss.spec.javax.transaction>1.1.1.Final</version.org.jboss.spec.javax.transaction>
-    <version.org.jboss.spec.javax.websocket>1.1.3.Final</version.org.jboss.spec.javax.websocket>
+    <version.org.jboss.spec.javax.websocket>1.1.4.Final</version.org.jboss.spec.javax.websocket>
     <version.org.jboss.spec.javax.ws.rs.jboss-jaxrs-api_2.1_spec>1.0.2.Final</version.org.jboss.spec.javax.ws.rs.jboss-jaxrs-api_2.1_spec>
     <version.org.jboss.spec.javax.xml.bind>1.0.1.Final</version.org.jboss.spec.javax.xml.bind>
     <version.org.jboss.spec.javax.xml.soap>1.0.6.Final</version.org.jboss.spec.javax.xml.soap>
